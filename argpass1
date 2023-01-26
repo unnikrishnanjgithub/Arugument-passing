@@ -1,0 +1,21 @@
+package Unni;
+
+public class Arg_pass 
+{
+	int add(int a,int b)
+	{
+        
+		int c=a+b;
+		return c;
+	}
+
+
+	public static void main(String[] args) 
+	{
+		Arg_pass s=new Arg_pass();
+		int c=s.add(2,3);
+		System.out.println("the result is "+c);
+
+	}
+
+}
