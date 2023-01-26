@@ -1,0 +1,35 @@
+public class Calculator 
+{
+	void add(int a,int b)
+	{
+		int add=a+b;
+		System.out.println("the addition is"+add);
+	}
+	void sub(int a,int b) {
+		int sub=a-b;
+		System.out.println("the subtraction is"+sub);
+	}
+	int multiply(int a,int b)
+	{
+		int multiply=a*b;
+		return multiply;
+	}
+	int division(int a,int b)
+	{
+		int divison=a/b;
+		return divison;
+	}
+
+	public static void main(String[] args) 
+	{
+		Calculator s=new Calculator();
+		s.add(2,3);
+		s.sub(2,3);
+		s.multiply(2,3);
+		System.out.println("the multiplication value is"+s.multiply(2, 3));
+		s.division(2,2);
+		System.out.println("the divison value is"+s.division(2, 2));
+
+	}
+
+}
